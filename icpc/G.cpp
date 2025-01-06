@@ -89,36 +89,6 @@ vector<Point> convex_hull(vector<Point> A)
  
     return ans;
 }
- 
-// Driver code
-// int main()
-// {
-//     vector<Point> points;
- 
-//     // Add points
-//     points.push_back({ 3, 2 });
-//     points.push_back({ 1, 5 });
-//     points.push_back({ 3, 6 });
-//     points.push_back({ 3, 5 });
-// 	// points.push_back({ 1, 2 });
-//     // points.push_back({ 4, 2 });
-//     // points.push_back({ 1, 6 });
-//     // points.push_back({ 4, 6 });
-//     // points.push_back({ 3, 0 });
-//     // points.push_back({ 0, 0 });
-//     // points.push_back({ 3, 3 });
- 
-//     // Find the convex hull
-//     vector<Point> ans = convex_hull(points);
- 
-//     // Print the convex hull
-//     for (int i = 0; i < ans.size(); i++)
-//         cout << "(" << ans[i].x << ", " << ans[i].y << ")"
-//              << endl;
- 
-//     return 0;
-// }
-
 
 int main()
 {
