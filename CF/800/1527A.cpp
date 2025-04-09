@@ -3,21 +3,20 @@
 using namespace std;
 
 
-int solve(int n){
-    int s = n;
-    while(s != 0){
-        n--;
-        s = s & n;
-    }
-    return n;
-}
+
 int main(){
     int t;
     cin>>t;
     while(t--){
         int n;
         cin>>n;
-        cout<<solve(n)<<endl;
+        int last= 0;
+        for(int i = 0; i < 30; i++){
+            if(((n>>i) & 1) == 1){
+                last = i;
+            }
+        }
+        cout<<(1<<last) - 1<<endl;
     }
     return 0;
 }
