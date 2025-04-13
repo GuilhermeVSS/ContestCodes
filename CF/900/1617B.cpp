@@ -24,8 +24,7 @@ int main() {
         } else {
             a = (n/2);
             b = (n/2) +1;
-        }
-
+    
         while(__gcd(a,b) != c){
             a--;
             b++;

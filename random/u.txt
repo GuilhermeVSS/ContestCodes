@@ -1,0 +1,49 @@
+primeira questão:
+dava um array de numero e um pivot.
+tinha que contar quantos numeros eram maiores e menores que o pivot
+se countMaiores > countMenores devolva "greater"
+se countMenores > countMaiores devolva "smaller"
+se for igual devolva "tie"
+
+
+Segunda Questão:
+Dava um plantel : "65456496846"
+e array de codigo ["0154", "7684"].
+o codigo funciona da seguinte forma <index><pattern>.
+monte um array passando por todos os index e patterns possiveis entre os codigos.
+caso encontre o <pattern> no plantel na posicao <index>, salve o codigo no array
+caso contrario salve "not found".
+
+saida:["not found", "54", "4","684","not found", "not found"], 
+
+Terceira questão.
+
+caixa = "#",
+obstaculo = "*".
+
+dando um mapa, com caixas e obstacalos.
+Arraste todas a caixas pra direita o máximo possível
+e depois todas para baixo o máximo possível.
+
+Retorne o estado final do mapa.
+
+Exemplo Entrada:
+
+["-", "#", "-", "#"]
+["#", "-", "*", "#"]
+["-", "-", "-", "-"]
+["#", "-", "-", "#"]
+
+Exemplo saida:
+
+[ '-', '-', '#', '-' ]
+[ '-', '-', '*', '#' ]
+[ '-', '-', '-', '#' ]
+[ '-', '#', '#', '#' ]
+
+Quarta:
+
+dando duas lista de numeros:
+e dois indeces i e j.
+devolva a quantidade de pares, sendo i < j, tal que:
+a[i] - b[j] = b[i] - a[j];
